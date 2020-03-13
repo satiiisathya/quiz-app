@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quiz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+       <div class="app">
+           <div class="container">
+               <div class="jabquiz">
+                   <div class="jabquiz__question-box">
+                       <h1 class="jabquiz__question"></h1>
+                       <div class="jabquiz__tracker"></div>
+                       <div class="progress">
+                           <div class="progress__inner"></div>
+                       </div>
+                       <p class="jabquiz__tagline">Pick and option below !</p>
+                    </div>
+                     <div class="jabquiz__choices-box">
+                        <ul class="jabquiz__choices">
+                            <!-- dynamically with javascript -->
+                        </ul>
+                       </div>
+                       <div class="jabquiz__footer">
+                        <button class="button button--bordered next">Next</button>
+                        <button class="button button--bordered restart">Restart</button>
+                       </div>
+               </div>
+           </div>
+       </div>
+       <script src="js/app.js" type="module"></script>
+    </body>
+</html>
